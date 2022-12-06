@@ -1,0 +1,94 @@
+.container
+{
+text-align: center;
+
+background-color:#f7f7f7; 
+}
+
+#logo
+{
+margin: auto;   
+height: 42%;
+width: 515px;
+justify-content: center;
+display:flex;
+}
+
+
+.header{
+
+  
+}
+
+.header .btn {
+  position: absolute;
+  top: 110%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color: white;
+  height: 80px;
+  font-size: 40px;
+  padding: 12px 24px;
+  border: 2px solid;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+.footer
+{
+
+background-color: #f7f7f7;    
+text-align: center;
+height:35%;
+float: center;
+font-size: 40px;
+color:#3b1f1b;
+display: flex;
+justify-content: center;
+
+
+}
+
+.content{
+
+background-color:#FAF9F6;
+background-color:;
+color:#3b1f1b;
+height: 150%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:#3b1f1b ;
+  overflow: hidden;
+height:70px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+height:70px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#f0a4c8;
+  color:#3b1f1b;
+height:70px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f0a4c8;
+  color:#3b1f1b;
+height:70
+}
